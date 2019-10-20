@@ -17,7 +17,7 @@ This action will deploy your lambda functions with Karna Docker image.
 :warning: AWS env vars are required to upadate your lambdas.
 
 ```yaml
-uses: karbonn/hello-world-docker-action@master
+uses: karbonn/karna-action@master
 with:
   target: "<Function Name>"
   alias: "<Alias>"
