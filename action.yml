@@ -1,0 +1,19 @@
+name: actions/karna
+author: Aymeric Aveline
+description: Action to deploy a lambda function with Karna
+inputs:
+  alias:
+    description: "Function alias"
+    required: true
+  target:
+    description: "Function name"
+    required: true
+runs:
+  using: "docker"
+  image: "Dockerfile"
+  args:
+    - ${{ inputs.alias }}
+    - ${{ inputs.target }}
+branding:
+  icon: "award"
+  color: "green"
