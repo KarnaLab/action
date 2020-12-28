@@ -14,7 +14,7 @@ This action will deploy your lambda functions with Karna Docker image.
 
 ## Example usage
 
-:warning: AWS env vars are required to upadate your lambdas.
+:warning: AWS env vars are required to update your lambdas.
 
 ```yaml
 uses: karnalab/action@master
