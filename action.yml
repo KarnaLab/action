@@ -5,7 +5,7 @@ inputs:
   alias:
     description: "Function alias"
     required: true
-  target:
+  name:
     description: "Function name"
     required: true
 runs:
@@ -13,7 +13,7 @@ runs:
   image: "Dockerfile"
   args:
     - ${{ inputs.alias }}
-    - ${{ inputs.target }}
+    - ${{ inputs.name }}
 branding:
   icon: "award"
   color: "green"
