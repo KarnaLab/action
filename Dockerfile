@@ -9,6 +9,8 @@ LABEL version="2.0.0"
 # Set the Current Working Directory inside the container
 WORKDIR /app
 
+RUN apk --no-cache add curl
+
 COPY entrypoint.sh /app/entrypoint.sh
 
 ENTRYPOINT [ "sh", "/app/entrypoint.sh" ]
