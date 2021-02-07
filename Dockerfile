@@ -5,7 +5,7 @@ LABEL "com.github.actions.name"="Karna action"
 LABEL "com.github.actions.description"="Deploy your Lambda functions with Karna"
 LABEL "com.github.actions.icon"="upload-cloud"
 LABEL "com.github.actions.color"="green"
-LABEL version="2.0.0"
+LABEL version="2.0.1"
 
 COPY entrypoint.sh /entrypoint.sh
 
