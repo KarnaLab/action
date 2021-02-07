@@ -1,4 +1,4 @@
-FROM karnalab/karna:v2.0.0
+FROM karnalab/karna:v2.0.1
 
 LABEL "author"="Aymeric Aveline"
 LABEL "com.github.actions.name"="Karna action"
